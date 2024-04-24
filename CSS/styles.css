@@ -1,0 +1,66 @@
+table, th, td{
+    border: 2px burlywood solid;
+    text-align: center;
+    margin: auto;
+}
+h2{
+    color: blueviolet;
+}
+.nav a{
+    text-decoration: none;
+    padding: 1rem;
+    color: aliceblue;
+    background-color: black;
+    
+}
+.nav{
+    text-align: center;
+}
+#main{
+    margin: 30px;
+    text-align: center;
+}
+aside > p{
+    border: dotted black;
+    color: dimgrey;
+}
+aside + .firstBtn, .secondBtn{
+color: cornflowerblue;
+}
+::selection{
+    color:yellowgreen;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+#hover:hover{
+    background-color: yellow;
+    padding: 2rex;
+}
+a:active {
+    color: purple;
+    background-color: darkkhaki;
+}
+tr:first-child{
+    background-color: yellowgreen;
+}
+tr td:hover{
+    color:crimson;
+}
+p i:first-child{
+    color:peru;
+}
+.paragraph::first-line{
+    color: red;
+}
+.paragraph::first-letter{
+    color: blue;
+}
+article::before{
+    content:url(https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif)
+}
+article::after{
+    content:url(https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif)
+}
